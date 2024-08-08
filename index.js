@@ -1,16 +1,18 @@
 const palabras = [
-    "Hola",
-    "Mundo",
-    "Python",
-    "Programación",
-    "Desarrollo",
-    "Web",
-    "Diseño",
-    "Gráficos",
-    "Juegos",
-    "Inteligencia",
-    "Artificial",
-    "Machine",
+    "hola",
+    "mundo",
+    "python",
+    "web",
+    "diseño",
+    "gráficos",
+    "juegos",
+    "inteligencia",
+    "artificial",
+    "machine",
+    "learning",
+    "deep",
+    "neural",
+    "networks",
 ];
 
 let palabraSeleccionada = "";
@@ -29,7 +31,7 @@ function desordenarPalabra(palabra) {
 }
 
 function nuevaPalabra() {
-    palabraSeleccionada = palabras[Math.floor(Math.random() * palabras.length)];
+    palabraSeleccionada = palabras[Math.floor(Math.random() * palabras.length)].toUpperCase();
     palabraDesordenada = desordenarPalabra(palabraSeleccionada);
     document.getElementById('Palabradesordenas').textContent = palabraDesordenada;
     document.getElementById('inputPalabra').value = ""; 
