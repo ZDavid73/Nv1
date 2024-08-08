@@ -1,0 +1,41 @@
+body {
+    background-color: #F2F5F9;
+    color: #030616;
+}
+
+h1 {
+    color: #7429C6;
+}
+
+p {
+    color: #4A5567;
+}
+
+#contededordeinputs {
+    background-color: #97A3B6;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+}
+
+button {
+    background-color: #C951E7;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #672171;
+}
+
+span {
+    font-weight: bold;
+}
+
