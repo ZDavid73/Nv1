@@ -13,6 +13,8 @@ const palabras = [
     "deep",
     "neural",
     "networks",
+    "anne",
+    "juanda"
 ];
 
 let palabraSeleccionada = "";
@@ -50,7 +52,7 @@ function verificarPalabra() {
         document.getElementById('mistakes').textContent = errores.join(', ');
         
         if (intentos >= maximoDeIntentos) {
-            alert('Jganaste');
+            alert('perdistesorry');
             resetearJuego();
         } else {
             alert('error vuelve intentar');
